@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Parent:</strong>
+  <%= @family.parent %>
+</p>
+
+<p>
+  <strong>Children:</strong>
+  <%= @family.children %>
+</p>
+
+<p>
+  <strong>String:</strong>
+  <%= @family.string %>
+</p>
+
+<%= link_to 'Edit', edit_family_path(@family) %> |
+<%= link_to 'Back', families_path %>
